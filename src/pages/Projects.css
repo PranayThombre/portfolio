@@ -1,0 +1,57 @@
+.projects-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  color: #fff;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.project-links a {
+  display: inline-block;
+  margin: 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Optional if you want dynamic color */
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.title{
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  color:#6B7280;
+}
+
+a{
+  color: #6366F1;
+}
+
+.desc{
+  font-weight: 400;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-fade-in {
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+
+

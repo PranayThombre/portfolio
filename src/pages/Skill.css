@@ -1,0 +1,77 @@
+/* Skill.css */
+
+/* Default (Light Theme) */
+.skill {
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #111111;
+  margin:5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.80rem;
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  color: #6366F1;
+
+}
+
+
+
+.skill h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #232629ff;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+
+}
+
+.skill p {
+  max-width: 600px;
+  margin-bottom: 3rem;
+  color: #4b5563;
+  padding:5px;
+}
+
+.skill .category {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill .icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1.25rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.skill .icon-box:hover {
+  transform: translateY(-5px);
+}
+
+.skill .icon-box span {
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+/* Dark Theme Override */
+body.dark-theme .skill {
+  background-color: #090909;
+  color: #e4e4e4;
+}
+
+body.dark-theme .skill h2 {
+  color: #ffffff;
+}
+
+body.dark-theme .skill p {
+  color: #cbd5e1;
+}
