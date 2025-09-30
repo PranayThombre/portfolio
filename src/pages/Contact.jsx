@@ -59,7 +59,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/pranay-thombre-4a2595243/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>{" "}
-          | <a href="/resume.pdf" download>Resume</a>
+          | <a href="/Pranay_Thombre_Resume.pdf" download>Resume</a>
         </p>
       </div>
 
